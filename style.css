@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #A3A3A3;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-style: normal;
+}
+
+.container {
+    margin: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+p {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.card {
+    margin: 2rem;
+    width: 39rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.genderDiv {
+    width: 1rem;
+    height: 12rem;
+}
+
+.genderDiv.male {
+    background-color: blue;
+}
+
+.genderDiv.female {
+    background-color: purple;
+}
+
+img {
+    margin: 2rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.infoCard {
+    display: flex;
+    background: #535353;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 41px;
+    font-weight: 700;
+}
+
+hr {
+    width: 26rem;
+    border: 1px solid #FFFFFF;
+}
